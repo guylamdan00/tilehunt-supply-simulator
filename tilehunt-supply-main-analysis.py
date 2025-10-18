@@ -43,7 +43,9 @@ print("Google account authenticated successfully.")
 
 # Access the Google Sheets spreadsheet
 print("Accessing Google Sheets spreadsheet...")
-spreadsheet = gc.open_by_key('1i-ap1vCIHOxoo_dpxuIIlSKVX6oxqidYxNJMfVSwQ0c')
+
+# Insert spreadsheet key below:
+spreadsheet = gc.open_by_key('')
 print("Spreadsheet accessed successfully.")
 
 # Define the data path and date range for filtering
